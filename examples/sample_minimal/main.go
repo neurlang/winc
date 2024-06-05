@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/tadvi/winc"
+	"github.com/neurlang/winc"
 )
 
 func main() {

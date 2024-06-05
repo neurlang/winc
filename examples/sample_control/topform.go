@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/tadvi/winc"
-	"github.com/tadvi/winc/w32"
+	"github.com/neurlang/winc"
+	"github.com/neurlang/winc/w32"
 )
 
 // TopForm displayed as topmost window until closed.

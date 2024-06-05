@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/tadvi/winc/w32"
+	"github.com/neurlang/winc/w32"
 )
 
 type Icon struct {

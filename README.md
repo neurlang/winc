@@ -40,7 +40,7 @@ Best way to learn how to use the library is to look at the included **examples**
 1. Make sure you have a working Go installation and build environment, see more for details on page below.
    http://golang.org/doc/install
 
-2. go get github.com/tadvi/winc
+2. go get github.com/neurlang/winc
 
 ## Icons
 
@@ -94,7 +94,7 @@ Dialog screens are not based on Windows resource files (.rc). They are just wind
 package main
 
 import (
-	"github.com/tadvi/winc"
+	"github.com/neurlang/winc"
 )
 
 func main() {
@@ -146,7 +146,7 @@ This is usually due to string UTF8 and UTF16 conversions. But there are other ty
 
 When developing your own controls you might also need to:
 
-	import "github.com/tadvi/winc/w32"
+	import "github.com/neurlang/winc/w32"
 
 w32 has Win32 API low level constants and functions.
 
@@ -154,7 +154,7 @@ Look at **sample_control** for example of custom built window.
 
 ## Companion Package
 
-[Go package for Windows Systray icon, menu and notifications](https://github.com/tadvi/systray)
+[Go package for Windows Systray icon, menu and notifications](https://github.com/neurlang/systray)
 
 ## Credits
 
